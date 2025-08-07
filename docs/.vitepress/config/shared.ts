@@ -17,6 +17,9 @@ export const shared = defineConfig({
     ['link', {rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: ''}],
     ['link', {href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Sans+Mono:wght@500&display=swap', rel: 'stylesheet'}],
   ],
+  build: {
+    emptyOutDir: false
+  },
   themeConfig: {
     logo: '/images/logo.svg',
     socialLinks: [
@@ -24,7 +27,7 @@ export const shared = defineConfig({
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright @ 2024-present lilxyzw'
+      copyright: 'Copyright @ 2025-present lilxyzw'
     },
     editLink: {
       pattern: 'https://github.com/lilxyzw/lilycalInventory/edit/docs/docs/:path',
